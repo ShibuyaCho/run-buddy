@@ -12,20 +12,23 @@ body {
   header {
       padding: 20px 35px;
       background-color: #39a6b2;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
   }
   header h1 {
       font-weight: bold;
       font-size: 36px;
       color: #fce138;
       margin: 0;
-      display: inline;
+    
   }
   header a {
       text-decoration: none;
       color: #fce138;
   }
   header nav{
-      float: right;
+      
       margin: 7px 0;
   }
   header nav ul li {
@@ -237,45 +240,4 @@ body {
           .contact-info a {
             color: #fce138;
           }
-         .contact-input {
-            border-radius: 9px;
-            opacity: 0.8; 
-            display: block;
-            height: 30px;
-            font-size: 16px;
-            text-align: justify;
-            text-indent: 5px;
-            color: #024e76;
-            width: 100%;
-            margin-bottom: 15px;
-         }
-         .contact-form button{
-            background-color: #fce138;
-            color: #024e76;
-            border: none;
-            border-radius: 9px;
-            padding: 10px 20px;
-            font-size: 16px;
-            width: 100%;
-         }
-         .contact-form h3 {
-             margin: 2px;
-            
-         }
-         .contact-message {
-            border-radius: 9px;
-            opacity: 0.8; 
-            display: block;
-            height: 50px;
-            font-size: 16px;
-            text-align: left top;
-            text-indent: 5px;
-            overflow-wrap: break-word;
-            color: #024e76;
-            width: 100%;
-            margin-bottom: 15px;
-        }
-         .contact-message h3 {
-            margin: 2px;
-         }
-       
+        
